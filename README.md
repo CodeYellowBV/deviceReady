@@ -13,7 +13,7 @@ support the same loader plugin API.
 
 This plugin works mostly like the RequireJS DOM Ready plugin:
 
-	```javascript
+	```JavaScript
 	require(['deviceReady'], function(deviceReady) {
 	  deviceReady(function(isCordova) {
 	    // ...
@@ -23,7 +23,7 @@ This plugin works mostly like the RequireJS DOM Ready plugin:
 
 Alternatively, you can use it through the RequireJS *Loader Plugin API*:
 
-	```javascript
+	```JavaScript
 	require(['deviceReady!'], function(isCordova) {
 	  // ...
 	});
