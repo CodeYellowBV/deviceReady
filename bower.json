@@ -1,0 +1,23 @@
+{
+  "name": "requirejs-deviceReady",
+  "main": "deviceReady.js",
+  "version": "0.1.0",
+  "authors": [
+    "Code Yellow B.V."
+  ],
+  "description": "AMD loader plugin for detecting deviceReady on Cordova / Phonegap with desktop fallback emulation.",
+  "keywords": [
+      "AMD",
+      "event",
+      "cordova",
+      "phonegap",
+      "device ready"
+  ],
+  "license": "New BSD, and MIT",
+  "homepage": "https://bitbucket.org/codeyellow/deviceready",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
