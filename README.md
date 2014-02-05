@@ -13,19 +13,21 @@ support the same loader plugin API.
 
 This plugin works mostly like the RequireJS DOM Ready plugin:
 
-	:::javascript
+	```javascript
 	require(['deviceReady'], function(deviceReady) {
 	  deviceReady(function(isCordova) {
 	    // ...
 	  });
 	});
+	```
 
 Alternatively, you can use it through the RequireJS *Loader Plugin API*:
 
-	:::javascript
+	```javascript
 	require(['deviceReady!'], function(isCordova) {
 	  // ...
 	});
+	```
 
 The `isCordova` argument is a boolean which will be `false` in desktop
 browsers and `true` in Cordova.
