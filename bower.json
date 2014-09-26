@@ -1,5 +1,5 @@
 {
-  "name": "requirejs-deviceReady",
+  "name": "requirejs-deviceready",
   "main": "deviceReady.js",
   "version": "0.1.0",
   "authors": [
@@ -14,7 +14,7 @@
       "device ready"
   ],
   "license": "New BSD, and MIT",
-  "homepage": "https://bitbucket.org/codeyellow/deviceready",
+  "homepage": "https://github.com/CodeYellowBV/deviceReady",
   "ignore": [
     "**/.*",
     "node_modules",
